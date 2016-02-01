@@ -1,0 +1,11 @@
+# Site settings
+title: Alliance for Progress
+email: webmaster@scienceparty.org.au
+description: Progressive minor parties working together to improve Australia.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://allianceforprogress.org.au" # the base hostname & protocol for your site
+twitter_username: allianceforprogress
+github_username:  allianceforprogress
+
+# Build settings
+markdown: kramdown
