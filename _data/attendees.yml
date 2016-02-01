@@ -1,0 +1,35 @@
+- name: Australian Cyclist Party
+  logo: australian_cyclists.png
+  url: https://australian-cyclists-party.org/
+
+- name: Building Australia
+  logo: building_australia.png
+  url: http://www.buildingaustralia.org.au/
+
+- name: Bullet train for Australia
+  logo: bullet_train.png
+  url: https://bullettrainforaustralia.com.au
+
+- name: HEMP
+  logo: hemp.png
+  url: https://australianhempparty.com
+
+- name: Neutral Voting Bloc
+  logo: nvb.png
+  url: http://nvbloc.org/
+
+- name: Online Direct Democracy
+  logo: odd.png
+  url: http://www.onlinedirectdemocracy.org/
+
+- name: Renewable Energy Party
+  logo: rep.png
+  url: http://renewableenergyparty.com.au/
+
+- name: Sustainable Population Party
+  logo: sustainable_population.png
+  url: http://www.votesustainable.org.au/
+
+- name: Voluntary Euthanasia Party
+  logo: vep.png
+  url: http://www.vep.org.au/

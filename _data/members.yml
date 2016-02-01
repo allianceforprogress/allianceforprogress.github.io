@@ -1,0 +1,35 @@
+- name: Science Party
+  logo: Science_Party_FormerlyFp.png
+  url: http://www.scienceparty.org.au
+
+- name: Australian Progressives
+  logo: australian_progressives.png
+  url: https://australianprogressives.org.au/
+
+- name: Pirate Party Australia
+  logo: pirate_party.png
+  url: https://pirateparty.org.au/
+
+- name: Australian Equality Party
+  logo: australian_equality.png
+  url: http://www.equality.org.au/
+
+- name: Arts Party
+  logo: arts_party.png
+  url: http://www.artsparty.org/
+
+- name: Transhumanist Party Australia
+  logo: transhumanists.png
+  url: http://www.transhumanism.com.au/
+
+- name: Life Extension, Science and Technology Party
+  logo: lestp.png
+  url: http://lestp.org/
+
+- name: Secular Party of Australia
+  logo: secular.png
+  url: https://www.secular.org.au/
+
+- name: Animal Justice Party
+  logo: animal_justice.png
+  url: http://animaljusticeparty.org/
