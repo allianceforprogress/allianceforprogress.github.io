@@ -15,7 +15,7 @@ weight: 2
             <div class="row">
                 {% for member in site.data.members %}
                 <div class="col-xs-12 col-sm-4 col-md-4">
-                    <a href="{{ member.url }}" target="_blank"><img class="img-responsive center-block" src="/images/logos/{{ member.logo }}" alt="{{ member.name }}" style="max-height: 73px;"></a>
+                    <a href="{{ member.url }}" target="_blank"><img class="img-responsive center-block" src="/images/logos/{{ member.logo }}" alt="{{ member.name }}" title="{{ member.name }}" style="max-height: 73px;"></a>
                 </div>
                 {% endfor %}
 			</div>
@@ -27,7 +27,7 @@ weight: 2
             <div class="row">
                 {% for member in site.data.attendees %}
                 <div class="col-xs-12 col-sm-4 col-md-4">
-                    <a href="{{ member.url }}" target="_blank"><img class="img-responsive center-block" src="/images/logos/{{ member.logo }}" alt="{{ member.name }}" style="max-height: 73px;"></a>
+                    <a href="{{ member.url }}" target="_blank"><img class="img-responsive center-block" src="/images/logos/{{ member.logo }}" alt="{{ member.name }}" title="{{ member.name }}" style="max-height: 73px;"></a>
                 </div>
                 {% endfor %}
             </div>
