@@ -12,8 +12,5 @@ collections:
     output: true
     permalink: /campaigns/:path/
 
-gems:
-  - jekyll-redirect-from
-
 # Build settings
 markdown: kramdown
