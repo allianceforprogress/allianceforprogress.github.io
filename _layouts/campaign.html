@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<section id="blog" class="container">
+    <div class="center wow">
+        <h2>{{ page.title }}</h2>
+        {% if page.lead %}<p class="lead">{{ page.lead }}</p>{% endif %}
+    </div>
+    <div class="blog">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="blog-item">
+                    <div class="row">  
+                        <div class="col-xs-12 col-sm-2 text-center">
+                            <div class="entry-meta">
+                                <span id="publish_date">{{ page.date | date: "%d %b %Y" }}</span>
+                                {% if page.author %}<span><i class="fa fa-user"></i> <a href="#">{{ page.author }}</a></span>{% endif %}
+                                <span><a href="/campaigns">&lt; Campaigns</a></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-10 blog-content">
+                            {% if page.image %}<p><img class="img-responsive center-block" src="{{ page.image }}" alt="{{ page.title }}" title="{{ page.title }}" /></p>{% endif %}
+                            {{ content }}
+                        </div>
+                    </div>
+                </div><!--/.blog-item-->        
+            </div><!--/.col-md-8-->  
+        </div><!--/.row-->
+    </div><!--/.blog-->
+</section><!--/#blog-->
